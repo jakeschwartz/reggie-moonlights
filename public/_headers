@@ -1,0 +1,18 @@
+# Cloudflare Pages headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+# Hashed assets — immutable, cache forever
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Sleeve scans — large but never change. Cache for a year.
+/sleeves/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML — always re-validate so deploys go live immediately
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: interest-cohort=()

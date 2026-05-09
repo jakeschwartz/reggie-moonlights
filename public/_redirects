@@ -1,0 +1,3 @@
+# SPA fallback — every unknown path returns index.html with a 200
+# https://developers.cloudflare.com/pages/configuration/redirects/
+/*  /index.html  200
