@@ -66,7 +66,7 @@ export default function Story() {
             able to piece together.
           </p>
           <p className="mt-3 text-cream/55 text-[0.85rem]">
-            <em>sources: Wax Poetics #71 · Marlon Hines interviews ·
+            <em>sources: Crate Quarterly #71 · Marlon Hines interviews ·
             letters from R. Garrison Jr. · my own conversations.
             I am not a journalist. this is what I think happened.</em>
           </p>

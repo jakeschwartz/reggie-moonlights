@@ -43,8 +43,8 @@ export default function Footer() {
           </div>
           <ul className="space-y-1">
             <li><a href="#" className="fan-link">[detroit lost soul webring]</a></li>
-            <li><a href="#" className="fan-link">[soulful detroit forum]</a></li>
-            <li><a href="#" className="fan-link">[wax poetics back issues]</a></li>
+            <li><a href="#" className="fan-link">[detroit 45s forum]</a></li>
+            <li><a href="#" className="fan-link">[crate quarterly back issues]</a></li>
             <li><a href="#" className="fan-link">[my other site: garrison label discog]</a></li>
           </ul>
           <div className="mt-5 text-cream/50">

@@ -29,7 +29,7 @@ export default function About() {
               What I had at the time was a name (Reggie St. Clair, possibly
               Detroit), a label (Silver Arc), and the suspicion that the record
               I was hearing was not supposed to exist. There were no Wikipedia
-              articles. There were two threads on a Soulful Detroit forum, both
+              articles. There were two threads on the Detroit 45s Forum, both
               wrong about the year. I wrote a letter to Wendell Garrison's son
               and got back a postcard that said, in its entirety:{" "}
               <em className="text-moonlight">"Yes, that was them. Reggie was my godfather. The other one was difficult."</em>

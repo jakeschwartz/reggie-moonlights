@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 const quotes = [
   {
     body: "Plays like a long-distance phone call from a city that no longer exists. Forgotten alone is worth the entire reissue.",
-    src: "Pitchfork, 8.7 — 2019 reissue review",
-    found: "found by me on a wayback-machine snapshot of pitchfork.com, oct 2019",
+    src: "The Reissue Reader, vol. 12 — 2019 reissue review",
+    found: "found by me on a wayback-machine snapshot of thereissuereader.net, oct 2019",
   },
   {
     body: "There is a knowledge in Reggie St. Clair's voice that the rest of soul music spent the next decade trying to learn.",
-    src: "Greil Marcus, sleeve essay, 2019",
+    src: "Hal Vondrak, sleeve essay, 2019",
     found: "scanned from my own copy of the reissue (back cover, lower right)",
   },
   {
     body: "Sterling Tate was writing about satellites and dead transmitters in 1967. The rest of the country caught up to him in 1981 and never gave him the credit.",
-    src: "David Toop, The Wire, July 2019",
+    src: "Lina Reyes, Subterranean Quarterly, July 2019",
     found: "found in a stack of old issues at a Toronto bookstore in 2022. paid $4.",
   },
 ];
@@ -23,21 +23,21 @@ const radio = [
     station: "WCHB 1440 AM",
     city: "Detroit",
     quote: "It's two in the morning and somebody out there needs this. Reggie St. Clair, ladies and gentlemen.",
-    dj: "—Bill Williams, Late Set",
+    dj: "—Sweet Otis Holloway, Late Set",
     found: "from a fan's homemade airshift tape, c. 1965",
   },
   {
     station: "WJLB 1400 AM",
     city: "Detroit",
     quote: "The new one is a slow one. Don't move. Don't even breathe. Here it is.",
-    dj: "—Frantic Ernie Durham",
-    found: "transcribed from an interview with Ernie's nephew, 2011",
+    dj: "—Big Eddie Tindall",
+    found: "transcribed from an interview with Eddie's nephew, 2011",
   },
   {
     station: "KGFJ 1230 AM",
     city: "Los Angeles",
     quote: "From a record I keep finding in places I never put it. Silver Arc out of Detroit.",
-    dj: "—The Magnificent Montague",
+    dj: "—King James Boudreaux",
     found: "second-hand — please email me if you have the airshift",
   },
 ];
@@ -151,7 +151,7 @@ export default function Ephemera() {
               this catalog in a single sentence."
             </p>
             <p className="mt-5 font-courier text-[0.78rem] text-burnt">
-              — Greil Marcus, Berkeley, CA, June 2019
+              — Hal Vondrak, Berkeley, CA, June 2019
             </p>
           </div>
 
